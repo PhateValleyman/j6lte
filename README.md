@@ -10,7 +10,7 @@ $ mkdir ofox ; cd ofox
 $ repo init --depth=1 -u https://gitlab.com/OrangeFox/Manifest.git -b fox_9.0
 
 # Clone j6lte repo
-$ git clone https://gitlab.com/OrangeFox/device/j6lte.git -b fox_9.0 device/samsung/j6lte
+$ git clone https://github.com/PhateValleyman/j6lte.git -b fox_9.0 device/samsung/j6lte
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
